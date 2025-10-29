@@ -29,6 +29,11 @@ Data serving is the final step in the data engineering process, where prepared a
 
 ## Learning the fundamentals
 - [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/ns/books/published/pythonds/index.html)
+- Git
+- Linux
+- Networking
+- [Sistemas Distribuídos: Conceito e Definições](https://medium.com/sicreditech/sistemas-distribu%C3%ADdos-conceito-e-defini%C3%A7%C3%B5es-f2baa4efc88d)
+- [A Thorough Introduction to Distributed Systems](https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c/)
   
 ## AWS Certification Studies: Data Engineer — Associate
 - [AWS Certified Data Engineer: Study Guide](https://itbooks.ir/assets/files/books/cloud-computing/aws-certified-data-engineer-study-guide.pdf)
