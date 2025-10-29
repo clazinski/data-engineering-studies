@@ -13,7 +13,7 @@
 - **Monitoring**: performance and error tracking
 
 ## Workflow
-[Data Generation](https://github.com/clazinski/data-engineering-studies/edit/main/README.md#1-data-generation) > [Data Storage](https://github.com/clazinski/data-engineering-studies/edit/main/README.md#2-data-storage) > [Data Ingestion](https://github.com/clazinski/data-engineering-studies/edit/main/README.md#3-data-ingestion) > [Data Serving](https://github.com/clazinski/data-engineering-studies/edit/main/README.md#4-data-serving)
+[Data Generation](https://github.com/clazinski/data-engineering-studies/tree/main?tab=readme-ov-file#1-data-generation) > [Data Storage](https://github.com/clazinski/data-engineering-studies/tree/main?tab=readme-ov-file#2-data-storage) > [Data Ingestion](https://github.com/clazinski/data-engineering-studies/tree/main?tab=readme-ov-file#3-data-ingestion) > [Data Serving](https://github.com/clazinski/data-engineering-studies/tree/main?tab=readme-ov-file#4-data-serving)
 
 ### 1. Data Generation
 Data is generated in two primary forms: analog and digital. Analog data is continuous, real-world information representing physical quantities like temperature or sound. In contrast, digital data is either converted from analog sources (e.g., images, videos) or is natively produced by digital systems, such as mobile application logs or synthetic data.
