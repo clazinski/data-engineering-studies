@@ -12,6 +12,12 @@
 - **Data Governance**: quality, security, compliance
 - **Monitoring**: performance and error tracking
 
+## Workflow
+1. Data Generation
+2. Data Storage
+3. Data Ingestion
+4. Data Serving
+
 ## AWS Certification Studies: Data Engineer — Associate
 - [AWS Certified Data Engineer: Study Guide](https://itbooks.ir/assets/files/books/cloud-computing/aws-certified-data-engineer-study-guide.pdf)
 - [AWS DEA-C01 certification prep course](https://www.udemy.com/course/aws-data-engineer/learn/lecture/40392584?start=0#overview)
