@@ -19,13 +19,13 @@
 Data is generated in two primary forms: analog and digital. Analog data is continuous, real-world information representing physical quantities like temperature or sound. In contrast, digital data is either converted from analog sources (e.g., images, videos) or is natively produced by digital systems, such as mobile application logs or synthetic data.
 
 ### 2. Data Storage
-WIP
+_WIP_
 
 ### 3. Data Ingestion
-WIP
+_WIP_
 
 ### 4. Data Serving
-WIP
+_WIP_
 
 ## AWS Certification Studies: Data Engineer — Associate
 - [AWS Certified Data Engineer: Study Guide](https://itbooks.ir/assets/files/books/cloud-computing/aws-certified-data-engineer-study-guide.pdf)
