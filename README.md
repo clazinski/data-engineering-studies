@@ -23,7 +23,7 @@
 ## Workflow
 [Data Generation](https://github.com/clazinski/data-engineering-studies/tree/main?tab=readme-ov-file#1-data-generation) > [Data Storage](https://github.com/clazinski/data-engineering-studies/tree/main?tab=readme-ov-file#2-data-storage) > [Data Ingestion](https://github.com/clazinski/data-engineering-studies/tree/main?tab=readme-ov-file#3-data-ingestion) > [Data Serving](https://github.com/clazinski/data-engineering-studies/tree/main?tab=readme-ov-file#4-data-serving)
 
-### 1. Data Generation
+## 1. Data Generation
 Data is generated in two primary forms: analog and digital. Analog data is continuous, real-world information representing physical quantities like temperature or sound. In contrast, digital data is either converted from analog sources (e.g., images, videos) or is natively produced by digital systems, such as mobile application logs or synthetic data.
 ### Sources
 Data sources are the origins from which data is collected and are categorized by their nature and origin. By nature, sources are primary (firsthand data from surveys, experiments, sensors) or secondary (data collected by others, such as reports, databases, and web data). By origin, they are classified as internal (from within the organization) or external (from outside sources). They can be:
@@ -55,13 +55,13 @@ The CAP Theorem, or Brewer's Theorem, is a fundamental principle in distributed 
 - Partition Tolerance (P): The system continues to operate despite network failures.
 The theorem dictates that during a network partition, a system must choose between Consistency and Availability. This trade-off is crucial for designing and selecting appropriate distributed databases for specific use cases.
 ---
-### 2. Data Storage
+## 2. Data Storage
 Data storage is the process of preserving digital information on physical or cloud media for future access. It involves technologies like hard drives and cloud platforms to ensure data can be saved and retrieved later.
 
-### 3. Data Ingestion
+## 3. Data Ingestion
 Data ingestion is the process of collecting and importing data from various sources into a centralized database or repository. As a key step in the data engineering lifecycle, its goal is to clean and store data in an accessible, consistent format to prepare it for organizational processing and analysis.
 
-### 4. Data Serving
+## 4. Data Serving
 Data serving is the final step in the data engineering process, where prepared and stored data is delivered to downstream applications and users to create value. It involves making coherent, transformed data accessible for various business purposes, such as training machine learning models, business intelligence (BI) analytics, and reverse ETL operations.
 
 ## AWS Certification Studies: Data Engineer — Associate
