@@ -25,6 +25,13 @@
 
 ### 1. Data Generation
 Data is generated in two primary forms: analog and digital. Analog data is continuous, real-world information representing physical quantities like temperature or sound. In contrast, digital data is either converted from analog sources (e.g., images, videos) or is natively produced by digital systems, such as mobile application logs or synthetic data.
+###### Sources
+Data sources are the origins from which data is collected and are categorized by their nature and origin. By nature, sources are primary (firsthand data from surveys, experiments, sensors) or secondary (data collected by others, such as reports, databases, and web data). By origin, they are classified as internal (from within the organization) or external (from outside sources). They can be:
+- Database
+- APIs
+- Logs
+- Mobile Apps
+- IoT
 
 ### 2. Data Storage
 Data storage is the process of preserving digital information on physical or cloud media for future access. It involves technologies like hard drives and cloud platforms to ensure data can be saved and retrieved later.
