@@ -19,13 +19,13 @@
 Data is generated in two primary forms: analog and digital. Analog data is continuous, real-world information representing physical quantities like temperature or sound. In contrast, digital data is either converted from analog sources (e.g., images, videos) or is natively produced by digital systems, such as mobile application logs or synthetic data.
 
 ### 2. Data Storage
-_WIP_
+Data storage is the process of preserving digital information on physical or cloud media for future access. It involves technologies like hard drives and cloud platforms to ensure data can be saved and retrieved later.
 
 ### 3. Data Ingestion
-_WIP_
+Data ingestion is the process of collecting and importing data from various sources into a centralized database or repository. As a key step in the data engineering lifecycle, its goal is to clean and store data in an accessible, consistent format to prepare it for organizational processing and analysis.
 
 ### 4. Data Serving
-_WIP_
+Data serving is the final step in the data engineering process, where prepared and stored data is delivered to downstream applications and users to create value. It involves making coherent, transformed data accessible for various business purposes, such as training machine learning models, business intelligence (BI) analytics, and reverse ETL operations.
 
 ## AWS Certification Studies: Data Engineer — Associate
 - [AWS Certified Data Engineer: Study Guide](https://itbooks.ir/assets/files/books/cloud-computing/aws-certified-data-engineer-study-guide.pdf)
