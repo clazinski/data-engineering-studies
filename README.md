@@ -43,6 +43,9 @@ A data model is a visual specification of data structures and business rules tha
 | Dimensional Modeling      | Used primarily in data warehousing and analytics, it organizes data into facts (measures) and dimensions (context) within star or snowflake schemas for simplified querying.     |
 | Object-Oriented Modeling      | Represents complex systems by encapsulating data and its associated behaviors into objects, ideal for applications with intricate, interrelated data.     |
 | NoSQL Modeling      | Employs flexible, schema-less approaches for databases where data structures are not rigid and may evolve over time.     |
+### OLTP x OLAP
+- **Online Transaction Processing (OLTP)** systems are designed for managing high-volume, routine transaction operations like data entry and retrieval. They are optimized for a large number of short, fast transactions (e.g., INSERT, UPDATE, DELETE) while ensuring data integrity and consistency in multi-user environments. Databases like PostgreSQL support OLTP through features such as ACID compliance and MVCC, which guarantee reliable and concurrent processing.
+- **Online Analytical Processing (OLAP**) systems, in contrast, are designed for complex querying and data analysis. They are optimized to handle large-scale data aggregations from multiple sources, enabling business intelligence and decision-making. While OLTP focuses on running the business, OLAP is used for analyzing it.
 
 ### 2. Data Storage
 Data storage is the process of preserving digital information on physical or cloud media for future access. It involves technologies like hard drives and cloud platforms to ensure data can be saved and retrieved later.
