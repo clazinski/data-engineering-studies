@@ -12,7 +12,7 @@
 - **Data Governance**: quality, security, compliance
 - **Monitoring**: performance and error tracking
 
-## Learning the fundamentals
+## Learning the Fundamentals
 - [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/ns/books/published/pythonds/index.html)
 - Git
 - Linux
