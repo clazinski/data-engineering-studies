@@ -27,6 +27,9 @@ Data ingestion is the process of collecting and importing data from various sour
 ### 4. Data Serving
 Data serving is the final step in the data engineering process, where prepared and stored data is delivered to downstream applications and users to create value. It involves making coherent, transformed data accessible for various business purposes, such as training machine learning models, business intelligence (BI) analytics, and reverse ETL operations.
 
+## Learning the fundamentals
+- [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/ns/books/published/pythonds/index.html)
+  
 ## AWS Certification Studies: Data Engineer — Associate
 - [AWS Certified Data Engineer: Study Guide](https://itbooks.ir/assets/files/books/cloud-computing/aws-certified-data-engineer-study-guide.pdf)
 - [AWS DEA-C01 certification prep course](https://www.udemy.com/course/aws-data-engineer/learn/lecture/40392584?start=0#overview)
