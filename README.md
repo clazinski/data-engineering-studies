@@ -12,6 +12,14 @@
 - **Data Governance**: quality, security, compliance
 - **Monitoring**: performance and error tracking
 
+## Learning the fundamentals
+- [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/ns/books/published/pythonds/index.html)
+- Git
+- Linux
+- Networking
+- [Sistemas Distribuídos: Conceito e Definições](https://medium.com/sicreditech/sistemas-distribu%C3%ADdos-conceito-e-defini%C3%A7%C3%B5es-f2baa4efc88d)
+- [A Thorough Introduction to Distributed Systems](https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c/)
+
 ## Workflow
 [Data Generation](https://github.com/clazinski/data-engineering-studies/tree/main?tab=readme-ov-file#1-data-generation) > [Data Storage](https://github.com/clazinski/data-engineering-studies/tree/main?tab=readme-ov-file#2-data-storage) > [Data Ingestion](https://github.com/clazinski/data-engineering-studies/tree/main?tab=readme-ov-file#3-data-ingestion) > [Data Serving](https://github.com/clazinski/data-engineering-studies/tree/main?tab=readme-ov-file#4-data-serving)
 
@@ -26,14 +34,6 @@ Data ingestion is the process of collecting and importing data from various sour
 
 ### 4. Data Serving
 Data serving is the final step in the data engineering process, where prepared and stored data is delivered to downstream applications and users to create value. It involves making coherent, transformed data accessible for various business purposes, such as training machine learning models, business intelligence (BI) analytics, and reverse ETL operations.
-
-## Learning the fundamentals
-- [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/ns/books/published/pythonds/index.html)
-- Git
-- Linux
-- Networking
-- [Sistemas Distribuídos: Conceito e Definições](https://medium.com/sicreditech/sistemas-distribu%C3%ADdos-conceito-e-defini%C3%A7%C3%B5es-f2baa4efc88d)
-- [A Thorough Introduction to Distributed Systems](https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c/)
   
 ## AWS Certification Studies: Data Engineer — Associate
 - [AWS Certified Data Engineer: Study Guide](https://itbooks.ir/assets/files/books/cloud-computing/aws-certified-data-engineer-study-guide.pdf)
