@@ -27,11 +27,13 @@
 Data is generated in two primary forms: analog and digital. Analog data is continuous, real-world information representing physical quantities like temperature or sound. In contrast, digital data is either converted from analog sources (e.g., images, videos) or is natively produced by digital systems, such as mobile application logs or synthetic data.
 ### Sources
 Data sources are the origins from which data is collected and are categorized by their nature and origin. By nature, sources are primary (firsthand data from surveys, experiments, sensors) or secondary (data collected by others, such as reports, databases, and web data). By origin, they are classified as internal (from within the organization) or external (from outside sources). They can be:
-- Database
-- APIs
-- Logs
-- Mobile Apps
-- IoT
+| Source  | Definition |
+| ------------- |:-------------:|
+| APIs       | APIs (Application Programming Interfaces) are fundamental tools for data engineers, primarily used for data collection. They are sets of protocols and rules that enable different software applications to communicate and exchange data seamlessly. By providing defined endpoints, APIs allow data engineers to interact with external services and platforms to collect, exchange, and manipulate data efficiently and securely, without needing to understand the underlying system's internal code.     |
+| Database      | A database is an organized, structured collection of electronic data stored and managed by a computer system, typically through a Database Management System (DBMS). It centralizes diverse data types—from text and numbers to images and videos—enabling efficient retrieval, updating, and modification. This structured access supports a wide range of applications, from maintaining customer records to analyzing business operations.     |
+| Logs      | Logs are chronological records that capture events, activities, and operations within a system. They contain detailed information such as timestamps, event details, errors, performance metrics, and user actions. Logs serve as a vital historical record, essential for troubleshooting issues, monitoring system health and security, and analyzing user behavior.     |
+| Mobile apps      | Mobile apps are software programs designed for smartphones and tablets, typically distributed through app stores. They are developed primarily in three forms: native (built for a specific OS), hybrid (using web technologies wrapped in a native shell), or cross-platform (using frameworks like React Native). These apps leverage device-specific features like GPS and cameras to provide diverse functionalities, from gaming to e-commerce. The hallmarks of a well-designed mobile application are a focus on user-friendly design, fast performance, offline functionality, and robust security.     |
+| IoT      | IoT (Internet of Things) refers to a network of physical devices that are connected to the internet and interact with their environment. These devices go beyond traditional computers to include a wide range of objects, from smart home thermostats to industrial robots. Their primary function is to measure and collect environmental data, and many are also capable of performing predefined actions, such as automatically adjusting a system.     |
 ### Data Normalization
 Database Normalization is a process in database design that organizes data to reduce redundancy and improve data integrity. The core goal is to structure a database into tables and columns in such a way that data is stored logically and efficiently.
 This is achieved by applying a series of rules, known as normal forms, which guide the segmentation of data into related tables and the establishment of relationships between them. The primary benefits are the elimination of duplicate data, minimization of data modification issues, and the simplification of queries.
@@ -46,7 +48,13 @@ A data model is a visual specification of data structures and business rules tha
 ### OLTP x OLAP
 - **Online Transaction Processing (OLTP)** systems are designed for managing high-volume, routine transaction operations like data entry and retrieval. They are optimized for a large number of short, fast transactions (e.g., INSERT, UPDATE, DELETE) while ensuring data integrity and consistency in multi-user environments. Databases like PostgreSQL support OLTP through features such as ACID compliance and MVCC, which guarantee reliable and concurrent processing.
 - **Online Analytical Processing (OLAP**) systems, in contrast, are designed for complex querying and data analysis. They are optimized to handle large-scale data aggregations from multiple sources, enabling business intelligence and decision-making. While OLTP focuses on running the business, OLAP is used for analyzing it.
+### CAP Theorem
+The CAP Theorem, or Brewer's Theorem, is a fundamental principle in distributed systems stating that it is impossible for a distributed database to simultaneously provide all three of the following guarantees:
+- Consistency (C): Every read receives the most recent data.
+- Availability (A): Every request gets a response, even if it's not the latest data.
+- Partition Tolerance (P): The system continues to operate despite network failures.
 
+The theorem dictates that during a network partition, a system must choose between Consistency and Availability. This trade-off is crucial for designing and selecting appropriate distributed databases for specific use cases.
 ### 2. Data Storage
 Data storage is the process of preserving digital information on physical or cloud media for future access. It involves technologies like hard drives and cloud platforms to ensure data can be saved and retrieved later.
 
