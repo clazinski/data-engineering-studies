@@ -19,7 +19,7 @@
 - Networking
 - [Sistemas Distribuídos: Conceito e Definições](https://medium.com/sicreditech/sistemas-distribu%C3%ADdos-conceito-e-defini%C3%A7%C3%B5es-f2baa4efc88d)
 - [A Thorough Introduction to Distributed Systems](https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c/)
-
+---
 ## Workflow
 [Data Generation](https://github.com/clazinski/data-engineering-studies/tree/main?tab=readme-ov-file#1-data-generation) > [Data Storage](https://github.com/clazinski/data-engineering-studies/tree/main?tab=readme-ov-file#2-data-storage) > [Data Ingestion](https://github.com/clazinski/data-engineering-studies/tree/main?tab=readme-ov-file#3-data-ingestion) > [Data Serving](https://github.com/clazinski/data-engineering-studies/tree/main?tab=readme-ov-file#4-data-serving)
 
@@ -47,14 +47,14 @@ A data model is a visual specification of data structures and business rules tha
 | NoSQL Modeling      | Employs flexible, schema-less approaches for databases where data structures are not rigid and may evolve over time.     |
 ### OLTP x OLAP
 - **Online Transaction Processing (OLTP)** systems are designed for managing high-volume, routine transaction operations like data entry and retrieval. They are optimized for a large number of short, fast transactions (e.g., INSERT, UPDATE, DELETE) while ensuring data integrity and consistency in multi-user environments. Databases like PostgreSQL support OLTP through features such as ACID compliance and MVCC, which guarantee reliable and concurrent processing.
-- **Online Analytical Processing (OLAP**) systems, in contrast, are designed for complex querying and data analysis. They are optimized to handle large-scale data aggregations from multiple sources, enabling business intelligence and decision-making. While OLTP focuses on running the business, OLAP is used for analyzing it.
+- **Online Analytical Processing (OLAP)** systems, in contrast, are designed for complex querying and data analysis. They are optimized to handle large-scale data aggregations from multiple sources, enabling business intelligence and decision-making. While OLTP focuses on running the business, OLAP is used for analyzing it.
 ### CAP Theorem
 The CAP Theorem, or Brewer's Theorem, is a fundamental principle in distributed systems stating that it is impossible for a distributed database to simultaneously provide all three of the following guarantees:
 - Consistency (C): Every read receives the most recent data.
 - Availability (A): Every request gets a response, even if it's not the latest data.
 - Partition Tolerance (P): The system continues to operate despite network failures.
-
 The theorem dictates that during a network partition, a system must choose between Consistency and Availability. This trade-off is crucial for designing and selecting appropriate distributed databases for specific use cases.
+---
 ### 2. Data Storage
 Data storage is the process of preserving digital information on physical or cloud media for future access. It involves technologies like hard drives and cloud platforms to ensure data can be saved and retrieved later.
 
@@ -63,7 +63,7 @@ Data ingestion is the process of collecting and importing data from various sour
 
 ### 4. Data Serving
 Data serving is the final step in the data engineering process, where prepared and stored data is delivered to downstream applications and users to create value. It involves making coherent, transformed data accessible for various business purposes, such as training machine learning models, business intelligence (BI) analytics, and reverse ETL operations.
-  
+
 ## AWS Certification Studies: Data Engineer — Associate
 - [AWS Certified Data Engineer: Study Guide](https://itbooks.ir/assets/files/books/cloud-computing/aws-certified-data-engineer-study-guide.pdf)
 - [AWS DEA-C01 certification prep course](https://www.udemy.com/course/aws-data-engineer/learn/lecture/40392584?start=0#overview)
