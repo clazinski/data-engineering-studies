@@ -32,6 +32,17 @@ Data sources are the origins from which data is collected and are categorized by
 - Logs
 - Mobile Apps
 - IoT
+### Data Normalization
+Database Normalization is a process in database design that organizes data to reduce redundancy and improve data integrity. The core goal is to structure a database into tables and columns in such a way that data is stored logically and efficiently.
+This is achieved by applying a series of rules, known as normal forms, which guide the segmentation of data into related tables and the establishment of relationships between them. The primary benefits are the elimination of duplicate data, minimization of data modification issues, and the simplification of queries.
+### Data Modelling
+A data model is a visual specification of data structures and business rules that illustrates the relationships between data elements. The technique used depends on the system's complexity and goals. The most common techniques include:
+| Model  | Definition |
+| ------------- |:-------------:|
+| Entity-Relationship (ER) Modeling      | A standard technique using entities (objects), attributes (properties), and relationships to represent a system's data structure.     |
+| Dimensional Modeling      | Used primarily in data warehousing and analytics, it organizes data into facts (measures) and dimensions (context) within star or snowflake schemas for simplified querying.     |
+| Object-Oriented Modeling      | Represents complex systems by encapsulating data and its associated behaviors into objects, ideal for applications with intricate, interrelated data.     |
+| NoSQL Modeling      | Employs flexible, schema-less approaches for databases where data structures are not rigid and may evolve over time.     |
 
 ### 2. Data Storage
 Data storage is the process of preserving digital information on physical or cloud media for future access. It involves technologies like hard drives and cloud platforms to ensure data can be saved and retrieved later.
