@@ -1,6 +1,6 @@
 # Data Engineering Learning Roadmap
 
-## Essential skills:
+## Essential skills
 - **SQL & Databases**: querying and managing data
 - **Data Modeling**: designing efficient schemas
 - **ETL/ELT**: building and maintaining data pipelines
