@@ -80,10 +80,10 @@ Data storage is the process of preserving digital information on physical or clo
 - **Database Management System (DBMS)**: Software designed to maintain and facilitate the extraction of data from large collections in a timely manner.
 
 There are two primary types of databases:
-1. _Relational Databases_
+1. [_Relational Databases_](https://github.com/clazinski/data-engineering-studies/blob/main/README.md#1-relational-databases)
     - Store data in a series of related tables.
     - Provide access to data points that are linked to one another.
-2. _NoSQL Databases_
+2. [_NoSQL Databases_](https://github.com/clazinski/data-engineering-studies/blob/main/README.md#2-nosql-databases)
     - Use a data model different from the traditional relational approach.
     - Typically prioritize horizontal scaling, eventual consistency, speed, and flexibility.
     - Commonly used for big data and real-time streaming applications.
