@@ -54,6 +54,24 @@ The CAP Theorem, or Brewer's Theorem, is a fundamental principle in distributed 
 - Availability (A): Every request gets a response, even if it's not the latest data.
 - Partition Tolerance (P): The system continues to operate despite network failures.
 The theorem dictates that during a network partition, a system must choose between Consistency and Availability. This trade-off is crucial for designing and selecting appropriate distributed databases for specific use cases.
+### Data Collection Considerations
+Before designing a technology architecture, it is crucial to consider the following factors that dictate how data is collected and ingested:
+1. **Bounded vs. Unbounded Data**
+  - **Bounded Data**: A finite, complete dataset with defined start and end points (e.g., a daily sales report). It is best suited for batch processing.
+  - **Unbounded Data**: A continuous, potentially infinite stream of data with no predefined limits (e.g., user clickstreams, sensor data). It requires stream or real-time processing.
+2. **Ingestion Frequency**
+  - The process for storing data can be batch (periodic chunks), micro-batch (small, frequent chunks), or real-time (immediate), depending on business needs for data freshness.
+3. **Synchronous vs. Asynchronous Ingestion**
+  - **Synchronous**: The system waits for a response from the source before proceeding. This ensures acknowledgment but can create delays.
+  - **Asynchronous**: Data is ingested without waiting for a response. This improves performance and decouples systems but offers less immediate guarantee of delivery.
+4. **Throughput and Scalability**
+  - The ingestion pipeline must be able to scale to handle growing data volumes.
+  - **Risks of Poor Scalability**:
+    - **Bottlenecks**: Components cannot process data fast enough, causing delays.
+    - **Data Loss**: Systems become overwhelmed and discard or corrupt data.
+5. **Reliability and Durability**
+  - **Reliability**: Ensuring data is accurate and consistent as it enters the pipeline from various sources.
+  - **Durability**: Guaranteeing that data is not lost or corrupted during the collection process.
 ---
 ## 2. Data Storage
 Data storage is the process of preserving digital information on physical or cloud media for future access. It involves technologies like hard drives and cloud platforms to ensure data can be saved and retrieved later.
