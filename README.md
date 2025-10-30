@@ -76,6 +76,19 @@ Before designing a technology architecture, it is crucial to consider the follow
 ## 2. Data Storage
 Data storage is the process of preserving digital information on physical or cloud media for future access. It involves technologies like hard drives and cloud platforms to ensure data can be saved and retrieved later.
 
+### Database Fundamentals
+- **Database**: A structured collection of useful data, organized to serve as an asset to an organization.
+- **Database Management System (DBMS)**: Software designed to maintain and facilitate the extraction of data from large collections in a timely manner.
+
+There are two primary types of databases:
+1. _Relational Databases_
+    - Store data in a series of related tables.
+    - Provide access to data points that are linked to one another.
+2. _NoSQL Databases_
+    - Use a data model different from the traditional relational approach.
+    - Typically prioritize horizontal scaling, eventual consistency, speed, and flexibility.
+    - Commonly used for big data and real-time streaming applications.
+
 ## 3. Data Ingestion
 Data ingestion is the process of collecting and importing data from various sources into a centralized database or repository. As a key step in the data engineering lifecycle, its goal is to clean and store data in an accessible, consistent format to prepare it for organizational processing and analysis.
 
