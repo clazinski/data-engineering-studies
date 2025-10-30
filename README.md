@@ -89,6 +89,25 @@ There are two primary types of databases:
     - Typically prioritize horizontal scaling, eventual consistency, speed, and flexibility.
     - Commonly used for big data and real-time streaming applications.
 
+#### Slowly Changing Dimensions (SCDs)
+Slowly Changing Dimensions (SCDs) are a data warehousing technique for managing and tracking historical changes to dimension data (e.g., customer address, product price) over time.
+- _Purpose_: To preserve historical accuracy by not simply overwriting old data when changes occur.
+- _Benefit_: Enables accurate historical analysis and reporting by maintaining a record of how attributes looked at any point in the past.
+
+#### Horizontal and Vertical Scaling
+| Scaling  | Definition | Method |
+| ------------- |:-------------:| ------------- |
+| Horizontal Scaling      | Adding more machines or nodes to an existing system to distribute the workload and handle increased demand.     | "Scaling out" by adding more servers.      |
+| Vertical Scaling      |  Increasing the computing power (e.g., CPU, RAM) of an existing machine in a system.     | "Scaling up" by upgrading hardware on a single server.      |
+
+#### Star Schema and Snowflake Schema
+| Feature  |	Star Schema	| Snowflake Schema |
+| ------------- |:-------------:| ------------- |
+| **Structure**	| A central fact table (with measurable data) surrounded by denormalized dimension tables (with descriptive details). Forms a star-like shape. |	Dimension tables are normalized into multiple related sub-dimension tables. Forms a more complex, snowflake-like structure. 
+| **Key Focus**	| Simplicity and query performance for fast data analysis.	| Storage efficiency and data organization for managing complex relationships. |
+| **Ideal Use Case** | When priority is fast data extraction and analysis.	| When priority is managing detailed, complex data with a focus on reducing redundancy. |
+
+
 ## 3. Data Ingestion
 Data ingestion is the process of collecting and importing data from various sources into a centralized database or repository. As a key step in the data engineering lifecycle, its goal is to clean and store data in an accessible, consistent format to prepare it for organizational processing and analysis.
 
