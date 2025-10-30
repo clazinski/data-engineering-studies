@@ -107,7 +107,7 @@ Slowly Changing Dimensions (SCDs) are a data warehousing technique for managing 
 | **Ideal Use Case** | When priority is fast data extraction and analysis.	| When priority is managing detailed, complex data with a focus on reducing redundancy. |
 
 ### Relational Databases and NoSQL Databases
-### 1. Relational Databases:
+### 1. Relational Databases
   - MySQL
   - PostgreSQL
   - MariaDB
@@ -128,6 +128,21 @@ Slowly Changing Dimensions (SCDs) are a data warehousing technique for managing 
       - This architecture dramatically speeds up analytical queries and saves storage space.
       - It's faster for queries that only need a few columns (e.g., calculating an average), the database can scan only the relevant columns instead of reading entire rows.
     - Examples: Cassandra, BigTable, HBase
+   
+  - **Graph**: designed to represent and navigate complex relationships between data points efficiently.
+    - Structure: Data is stored as nodes (records/entities) and arcs (relationships between nodes).
+    - Optimization: It is highly optimized for data models with intricate connections, such as many-to-many relationships or foreign keys, making it ideal for use cases like social networks.
+    - Advantages: Offers high performance for querying complex relationships.
+    - Disadvantages:
+        - It is a relatively newer technology, so development tools and resources can be less abundant.
+        - Many graph databases are primarily accessed through REST APIs.
+    - Examples: Neptune, Neo4j
+
+  - **Key-Value**: a NoSQL database type that stores data as simple key-value pairs.
+    - Structure: Data is accessed and managed via a unique key that points to an associated value. Both the key and the value can be simple or complex objects.
+    - Function: Optimized specifically for high-performance reading and writing of this data.
+    - Key Strength: They are highly partitionable, allowing for horizontal scaling capabilities that surpass many other database types.
+    - Examples: Redis, DynamoDB
   
 ---
 ## 3. Data Ingestion
