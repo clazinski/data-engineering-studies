@@ -106,7 +106,30 @@ Slowly Changing Dimensions (SCDs) are a data warehousing technique for managing 
 | **Key Focus**	| Simplicity and query performance for fast data analysis.	| Storage efficiency and data organization for managing complex relationships. |
 | **Ideal Use Case** | When priority is fast data extraction and analysis.	| When priority is managing detailed, complex data with a focus on reducing redundancy. |
 
+### Relational Databases and NoSQL Databases
+### 1. Relational Databases:
+  - MySQL
+  - PostgreSQL
+  - MariaDB
+  - Aurora DN
+  - Oracle
+  - MS SQL
 
+### 2. NoSQL Databases
+  - **Document**: a type of NoSQL database designed for storing and managing semi-structured data. Data is stored in flexible formats like JSON, BSON, or XML, enabling hierarchical and variable data structures.
+    - Key Characteristics:
+      - Dynamic Schema: No need for a predefined, rigid schema.
+      - Scalability: Designed for horizontal scaling and distribution.
+      - Developer-Friendly: Data models map intuitively to application code.
+    - Examples: MongoDB, ElasticSearch, CosmosDB, COuchDB
+
+  - **Column**: a type of NoSQL database that stores data by columns rather than by rows. All the values for a single column are stored together, unlike traditional row-based databases which store all data for a single record together.
+    - Key Characteristics:
+      - This architecture dramatically speeds up analytical queries and saves storage space.
+      - It's faster for queries that only need a few columns (e.g., calculating an average), the database can scan only the relevant columns instead of reading entire rows.
+    - Examples: Cassandra, BigTable, HBase
+  
+---
 ## 3. Data Ingestion
 Data ingestion is the process of collecting and importing data from various sources into a centralized database or repository. As a key step in the data engineering lifecycle, its goal is to clean and store data in an accessible, consistent format to prepare it for organizational processing and analysis.
 
