@@ -154,3 +154,4 @@ Data serving is the final step in the data engineering process, where prepared a
 ## AWS Certification Studies: Data Engineer — Associate
 - [AWS Certified Data Engineer: Study Guide](https://itbooks.ir/assets/files/books/cloud-computing/aws-certified-data-engineer-study-guide.pdf)
 - [AWS DEA-C01 certification prep course](https://www.udemy.com/course/aws-data-engineer/learn/lecture/40392584?start=0#overview)
+- [AWS Data Engineer Associate Certification RoadMap & Resources](https://medium.com/@myid535/aws-data-engineer-associate-certification-roadmap-resources-c8e800931e02)
